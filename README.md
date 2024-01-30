@@ -22,3 +22,7 @@ everything about llm based agent
     - 可定制且功能全面的框架：提供可定制的引擎设计，涵盖了数据收集、工具检索、工具注册、存储管理、定制模型训练和实际应用等功能，可用于快速实现实际场景中的应用。
     - 开源LLMs作为核心组件：支持在 ModelScope 社区的多个开源LLMs上进行模型训练。
     - 多样化且全面的API：以统一的方式实现与模型API和常见的功能API的无缝集成。
+- [gpt-newspaper](https://github.com/assafelovic/gpt-newspaper)
+  - 这是一个创新的自主代理，旨在根据用户偏好创建个性化报纸。 GPT Newspaper 利用人工智能的力量根据个人品味和兴趣策划、撰写、设计和编辑内容，彻底改变了我们消费新闻的方式。
+- [json_repair](https://github.com/mangiucugna/json_repair)  
+  - 修复损坏的JSON文件,在LLM生成json数据场景下很有用
