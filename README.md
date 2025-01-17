@@ -1,8 +1,6 @@
 # awesome-llm-agent
 everything about llm based agent
-222
-
-333
+ 
 
 
 
@@ -58,7 +56,8 @@ everything about llm based agent
 
 - [agentUniverse](https://github.com/antgroup/agentUniverse/blob/master/README_zh.md)
   - agentUniverse 是一个基于大型语言模型的多智能体框架,由蚂蚁集团开源。 agentUniverse为您提供灵活易拓展的单智能体构建能力；agentUniverse核心拥有丰富的多智能体协同模式组件（可视为一个协同模式工厂Pattern Factory），它能让智能体们各司其职在解决不同领域问题时发挥最大的能力；同时agentUniverse专注于领域经验的融合，帮助您轻松将领域经验融入到智能体的工作中。
-
+- [Qwen-Agent](https://github.com/QwenLM/Qwen-Agent/blob/main/README_CN.md)
+  - Qwen-Agent是一个开发框架。开发者可基于本框架开发Agent应用，充分利用基于通义千问模型（Qwen）的指令遵循、工具使用、规划、记忆能力。本项目也提供了浏览器助手、代码解释器、自定义助手等示例应用。
 
 ## Agent应用
 - [gpt-newspaper](https://github.com/assafelovic/gpt-newspaper)
@@ -84,3 +83,11 @@ everything about llm based agent
 ## 企业级实践
 - [哈啰出行从Copilot到Agent模式的探索-贾立 PPT](https://www.alipan.com/s/U58jxu9vrKd)
 - [Anthropic的构建智能体的经验总结和实践建议](https://www.anthropic.com/research/building-effective-agents)
+- [阿里云服务领域Agent智能体：从概念到落地的思考、设计与实践](https://mp.weixin.qq.com/s/VBdgDIpmJvrt6fNgLE7i4Q)
+## 行业最佳实践指南
+- [Claude官方Anthropic的构建智能体的经验总结和实践建议：构建高效智能体](https://www.anthropic.com/research/building-effective-agents)
+  - [中文版](https://mp.weixin.qq.com/s/MgbHoQirV0fLmFkgRsI8KA)
+- [基于大语言模型的智能代理](https://lilianweng.github.io/posts/2023-06-23-agent/)
+  - [中文版](https://baoyu.io/translations/ai-agent/llm-powered-autonomous-agents)
+- [AI Agent（智能体）技术白皮书（Google，2024）](https://drive.google.com/file/d/1oEjiRCTbd54aSdB_eEe3UShxLBWK9xkt/view?pli=1)
+  - [中文版](https://arthurchiao.art/blog/ai-agent-white-paper-zh/)
