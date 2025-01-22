@@ -1,8 +1,17 @@
 # awesome-llm-agent
 everything about llm based agent
  
-
-
+# 论文
+## 综述
+- [2023-09-19 The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/pdf/2309.07864)
+  - [github](https://github.com/WooooDyy/LLM-Agent-Paper-List)
+- [2024-12-30 Large Language Model-Brained GUI Agents: A Survey](https://arxiv.org/abs/2411.18279)
+  - 大型语言模型（LLM）驱动的图形用户界面（GUI）智能体（Agent）。这一领域融合了人工智能、人机交互和软件工程的跨学科知识，是当前AI领域最活跃的方向之一。本次的综述系列解读将系统梳理LLM驱动GUI Agent的发展脉络，剖析其核心技术、关键挑战及未来机遇，旨在为感兴趣的读者提供详尽指南，并激发更多创新思考。
+  - ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250121144556.png)
+  - [中文总结](https://mp.weixin.qq.com/s/qacueqa-xEgLuZ09L0JUOA)
+- [2025-01-25 Agent AI: Surveying the Horizons of Multimodal Interaction](https://arxiv.org/abs/2401.03568)
+- [2024-12-15 A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432)
+  - [中文总结](https://mp.weixin.qq.com/s/Jz_oHJ64bq9eAfvLrZ8Jpw)
 
 # 开源项目
 ## Agent框架
@@ -67,27 +76,56 @@ everything about llm based agent
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands)
   -  OpenHands(前身是OpenDevin)是一个基于 AI 的软件开发代理平台。它可以执行任何人类开发人员能做的事情,如修改代码、运行命令、浏览网页、调用 API,甚至从 StackOverflow 复制代码片段。OpenHands 旨在帮助开发人员减少编码工作,提高工作效率。
 - [TradingAgents：用多Agent框架炒股，多赚6个点收益](https://mp.weixin.qq.com/s/6gKm49WMPB0Xx2IlCNtuxA)
-- 
+- [OmniThink](https://github.com/zjunlp/OmniThink)
+  - 浙大和阿里通义实验室开源的一个深度AI写作系统：OmniThink，它模拟人类学习和思考过程，实现了更深入的AI写作，解决了现在AI内容浅显、重复、非原创的问题
+  - OmniThink通过迭代扩展，不断扩充知识边界、持续反思、渐进学习的方式模拟人类学习过程
+  - 输出的内容知识密度高，内容冗余少，具备比较强的逻辑性的深度思考能力
+  - 支持多种底座模型，可自定义知识来源，可调整生成策略，不过生成质量依赖底座模型质量
+- [WebWalker](https://github.com/Alibaba-NLP/WebWalker)
+  - 阿里出的一个可以让LLM像人类一样在网上搜索信息的多智能体框架：WebWalker，它可以让LLM能自动点击链接、阅读网页、理解信息、最终给出答案，解决传统搜索引擎只能浅层搜索的问题
+  - 系统包含两个智能体，一个找信息助手，负责点击链接、浏览网页内容； 一个判断助手，判断找到的信息够不够， 是否需要继续找，给出答案
+  - 垂直搜索能力强，能处理复杂问题，可以深入多个网页，找到隐藏的信息
+  - 它可以和现有的AI问答系统（比如RAG）结合，比如RAG系统以前只能找到一些简单的答案，加上WebWalker后，可以增强处理复杂网络信息的能力
+- [pasa](https://github.com/bytedance/pasa)\
+  - 字节开源的一个非常智能的论文搜索代理：pasa(Paper Search agent)，它可以调用搜索工具、阅读论文、选择相关的参考文献，自己做决策，为复杂的学术查询提供全面准确结果
+  - 核心是它不只是简单的关键词搜索，它会像人一样思考，阅读论文，并根据需求选择最合适的论文
+  - PaSa-7B在召回率上比 PaSa-GPT-4o高30.36%，精确率高4.25%
+  - PaSa-7B在recall@20和recall@50上，分别比使用 GPT-4 增强后的Google搜索高37.78% 和 39.90%，优于Google 系搜索引擎
+  - pasa有两个代理，
+    - 1. Crawler处理用户查询，访问论文队列，可以调用搜索工具，展开引用，控制当前论文处理  
+    - 2. Selector， 读队列中的论文，判断是否符合查询标准
+- [CHRONOS](https://github.com/Alibaba-NLP/CHRONOS?tab=readme-ov-file)
+  - 阿里巴巴开源的一个新闻时间线摘要生成系统：CHRONOS，给它一个话题，它能生成一份按时间顺序整理好的重要事件摘要
+  - 具备迭代式自我提问机制，可以自己提问，自动找答案，按时间顺序整理重要信息
+  - 支持开放域新闻时间线生成，不限特定领域
+  - 处理速度快，可以处理大量新闻
 ## 工具
 - [semantic-router](https://github.com/aurelio-labs/semantic-router/tree/main)
   - semantic-router是为大模型和agent代理提供一个超快速的决策层。我们不用等待缓慢的LLM来生成使用哪个工具的决策，而是利用语义向量空间的法力来做出这些决策——使用语义来路由我们的请求
-## 安全护栏
 - [TypeChat](https://github.com/microsoft/TypeChat)
+- [json_repair](https://github.com/mangiucugna/json_repair)  ![GitHub stars](https://img.shields.io/github/stars/mangiucugna/json_repair.svg?style=flat&label=Star)
+  - 修复损坏的JSON文件,在LLM生成json数据场景下很有用
+## 安全护栏
+
 - [guidance](https://github.com/guidance-ai/guidance)
 - [NeMo-Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)
-- [json_repair](https://github.com/mangiucugna/json_repair)  
-  - 修复损坏的JSON文件,在LLM生成json数据场景下很有用
 
 
+# 课程
+- [AI Agents in LangGraph](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/)
+- [Multi AI Agent Systems with crewAI](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)
 
 ## 企业级实践
 - [哈啰出行从Copilot到Agent模式的探索-贾立 PPT](https://www.alipan.com/s/U58jxu9vrKd)
 - [Anthropic的构建智能体的经验总结和实践建议](https://www.anthropic.com/research/building-effective-agents)
 - [阿里云服务领域Agent智能体：从概念到落地的思考、设计与实践](https://mp.weixin.qq.com/s/VBdgDIpmJvrt6fNgLE7i4Q)
+- [支付宝百宝箱团队的技术负责人的AI Agent 综述分享](https://mp.weixin.qq.com/s/HrKOGXuI8wVM6qgylKZ8qw)
+- 
 ## 行业最佳实践指南
 - [Claude官方Anthropic的构建智能体的经验总结和实践建议：构建高效智能体](https://www.anthropic.com/research/building-effective-agents)
   - [中文版](https://mp.weixin.qq.com/s/MgbHoQirV0fLmFkgRsI8KA)
 - [基于大语言模型的智能代理](https://lilianweng.github.io/posts/2023-06-23-agent/)
   - [中文版](https://baoyu.io/translations/ai-agent/llm-powered-autonomous-agents)
+  - ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250121123852.png)
 - [AI Agent（智能体）技术白皮书（Google，2024）](https://drive.google.com/file/d/1oEjiRCTbd54aSdB_eEe3UShxLBWK9xkt/view?pli=1)
   - [中文版](https://arthurchiao.art/blog/ai-agent-white-paper-zh/)
