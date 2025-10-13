@@ -3,6 +3,8 @@ everything about llm based agent
  
 # 论文
 ## 综述
+- [A Survey on Agentic Security: Applications, Threats and Defenses](https://arxiv.org/abs/2510.06445)
+  ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master//imgs/20251013101641455.png)
 - [2023-09-19 The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/pdf/2309.07864)
   - [github](https://github.com/WooooDyy/LLM-Agent-Paper-List)
 - [2024-12-30 Large Language Model-Brained GUI Agents: A Survey](https://arxiv.org/abs/2411.18279)
@@ -68,6 +70,9 @@ everything about llm based agent
 - [Qwen-Agent](https://github.com/QwenLM/Qwen-Agent/blob/main/README_CN.md)
   - Qwen-Agent是一个开发框架。开发者可基于本框架开发Agent应用，充分利用基于通义千问模型（Qwen）的指令遵循、工具使用、规划、记忆能力。本项目也提供了浏览器助手、代码解释器、自定义助手等示例应用。
 
+- [ROMA](https://github.com/sentient-agi/ROMA)
+  ROMA（Recursive Open Meta-Agents）是一个元代理框架,使用递归层次结构来解决复杂问题。通过将任务分解为可并行的组件,ROMA使代理能够处理复杂的推理挑战,同时保持透明度,使上下文工程和迭代变得简单。该框架提供并行问题解决,代理可以同时处理复杂任务的不同部分,透明的开发具有清晰的结构,便于调试,并且通过搜索代理的强大基准测试结果证明了其性能。
+
 ## Agent应用
 - [gpt-newspaper](https://github.com/assafelovic/gpt-newspaper)
   - 这是一个创新的自主代理，旨在根据用户偏好创建个性化报纸。 GPT Newspaper 利用人工智能的力量根据个人品味和兴趣策划、撰写、设计和编辑内容，彻底改变了我们消费新闻的方式。
@@ -105,6 +110,8 @@ everything about llm based agent
 - [TypeChat](https://github.com/microsoft/TypeChat)
 - [json_repair](https://github.com/mangiucugna/json_repair)  ![GitHub stars](https://img.shields.io/github/stars/mangiucugna/json_repair.svg?style=flat&label=Star)
   - 修复损坏的JSON文件,在LLM生成json数据场景下很有用
+- [openagents](https://github.com/openagents-org/openagents)
+  - OpenAgents是一个开源项目,旨在创建AI Agent网络并将Agent连接到网络以进行开放协作。它提供了一个基础网络基础设施,使AI Agent能够无缝连接和协作。每个OpenAgents网络都是一个自包含的社区,Agent可以在其中发现对等方、协作解决问题、相互学习和共同成长。它与流行的LLM提供商和代理框架协议无关。
 ## 安全护栏
 
 - [guidance](https://github.com/guidance-ai/guidance)
@@ -112,6 +119,8 @@ everything about llm based agent
 
 
 # 指南手册
+- [智能体设计模式](https://docs.google.com/document/d/1rsaK53T3Lg5KoGwvf8ukOUvbELRtH-V0LnOIFDxBryE/preview?tab=t.0#)
+  - [中译版（翻译中）](https://github.com/ginobefun/agentic-design-patterns-cn)
 - [Google Startup Technical Guide for AI Agents](./handbooks/google-startup_technical_guide_ai_agents_final.pdf)
 
 - [Microsoft: Agent Governance whitepaper](./handbooks/Microsoft-Agent-governance-whitepaper.pdf)
@@ -139,6 +148,8 @@ everything about llm based agent
 - [Infosys - Tech Navigator Agentic Enterprise Playbook](./handbooks/Infosys-tech-navigator-agentic-enterprise-ai-playbook.pdf)
   - 印孚瑟斯是总部在印度班加罗尔的一家信息技术跨国公司。
 # 课程
+- [吴恩达 deeplearning：agentic-ai](https://www.deeplearning.ai/courses/agentic-ai/)
+- [2025-03 微软 AI Agents for Beginners](https://learn.microsoft.com/en-us/shows/ai-agents-for-beginners/)
 - [AI Agents in LangGraph](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/)
 - [Multi AI Agent Systems with crewAI](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)
 
@@ -149,6 +160,9 @@ everything about llm based agent
 - [支付宝百宝箱团队的技术负责人的AI Agent 综述分享](https://mp.weixin.qq.com/s/HrKOGXuI8wVM6qgylKZ8qw)
 - 
 ## 行业最佳实践指南
+- [Anthropic:Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
+- [Rebuilding Devin for Claude Sonnet 4.5: Lessons and Challenges](https://cognition.ai/blog/devin-sonnet-4-5-lessons-and-challenges)
+- [OpenAI:Context Engineering - Short-Term Memory Management with Sessions](https://cookbook.openai.com/examples/agents_sdk/session_memory)
 - [Claude官方Anthropic的构建智能体的经验总结和实践建议：构建高效智能体](https://www.anthropic.com/research/building-effective-agents)
   - [中文版](https://mp.weixin.qq.com/s/MgbHoQirV0fLmFkgRsI8KA)
 - [基于大语言模型的智能代理](https://lilianweng.github.io/posts/2023-06-23-agent/)
