@@ -111,6 +111,33 @@ everything about llm based agent
 - [NeMo-Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)
 
 
+# 指南手册
+- [Google Startup Technical Guide for AI Agents](./handbooks/google-startup_technical_guide_ai_agents_final.pdf)
+
+- [Microsoft: Agent Governance whitepaper](./handbooks/Microsoft-Agent-governance-whitepaper.pdf)
+  -[原始链接](https://adoption.microsoft.com/files/copilot-studio/Agent-governance-whitepaper.pdf)
+- [Cohere: Building Enterprise Agents](./handbooks/Cohere-Building-Enterprise-Agents.pdf)
+- [Amazon Web Services (AWS): An Executive’s Guide to Agentic AI](./handbooks/aws-an-executives-guide-to-agentic-ai-ebook-v3-final.pdf)
+- [Deloitte: Unlocking the right Agentic AI Use cases](./handbooks/Deloitte-in-eaid-agentic-ai-pov-chapter-1.pdf)
+  - 德勤（Deloitte Touche Tohmatsu），为一国际性专业服务网络，与普华永道、安永及毕马威并列为四大国际会计师事务所
+- [McKinsey & Company: Seizing the Agentic AI Advantage](./handbooks/QuantumBlack-seizing-the-agentic-ai-advantage.pdf)
+  - QuantumBlack原先是麦肯锡2015年收购的数据分析公司，后来成为了麦肯锡官方的、统一的人工智能(AI)部门
+- [KPMG: The Agentic AI Advantage](./handbooks/kpmg-agentic-ai-advantage.pdf)
+  - KPMG是“毕马威”（Klynveld Peat Marwick Goerdeler）的简称，它是全球最大的专业服务网络之一，也是国际“四大”会计师事务所之一
+- [Capgemini: The rise of Agentic AI](./handbooks/Capgemini-Final-Web-Version-Report-AI-Agents.pdf)
+  - 凯捷集团是一家具有50多年悠久历史的欧洲咨询公司。 凯捷中国扎根中国27年，拥有强大的咨询专家团队和数字化能力沉淀，在大数据、人工智能、可持续发展等最新技术应用和解决方案。
+- [Accenture: Technology vision 2025](./handbooks/Accenture-Tech-Vision-2025.pdf)
+  - 埃森哲（Accenture）是一家全球性的管理咨询、信息技术和业务流程外包公司。 该公司成立于1989年，前身是安达信会计师事务所的咨询部门。 埃森哲是全球最大的管理咨询公司之一，服务于全球500强企业中的大部分客户，业务遍及40多个行业。 
+- [OpenAI - AI in Enterprise](./handbooks/openai-ai-in-the-enterprise.pdf)
+- [Google: AI Agent Handbook](./handbooks/google%20-%20ai_agents_handbook.pdf)
+- [BCGX: AI Agents and MCP](./handbooks/BCGX-agent%20and%20mcp.pdf)
+  - 波士顿咨询公司（BCG）宣布成立数字化构建与设计部门BCG X
+- [Thomson Reuters and Reuters: Agentic AI 101](./handbooks/thomason-reuters-agentic-ai-101.pdf)
+  - 汤森路透（Thomson Reuters）是由加拿大汤姆森公司（The Thomson Corporation）与英国路透集团（Reuters Group PLC）合并组成的商务和专业智能信息服务提供商。
+- [ ServiceNow : Enterprise AI Maturity Index](./handbooks/ServiceNow-enterprise-ai-maturity-index-2025.pdf)
+  - ServiceNow是一家以ITSM业务起家的美国SaaS企业
+- [Infosys - Tech Navigator Agentic Enterprise Playbook](./handbooks/Infosys-tech-navigator-agentic-enterprise-ai-playbook.pdf)
+  - 印孚瑟斯是总部在印度班加罗尔的一家信息技术跨国公司。
 # 课程
 - [AI Agents in LangGraph](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/)
 - [Multi AI Agent Systems with crewAI](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)
