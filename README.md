@@ -1,6 +1,6 @@
 # awesome-llm-agent
 everything about llm based agent
- 
+ latest update: 2025-10-16
 # 论文
 ## 综述
 - [A Survey on Agentic Security: Applications, Threats and Defenses](https://arxiv.org/abs/2510.06445)
@@ -17,7 +17,14 @@ everything about llm based agent
 
 # 开源项目
 ## Agent框架
-
+- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) ![GitHub stars](https://img.shields.io/github/stars/microsoft/agent-framework.svg?style=flat&label=Star)
+  - Microsoft Agent Framework 是一个全面的多语言框架,用于构建、编排和部署 AI 代理,支持 .NET 和 Python 实现。该框架提供从简单的聊天代理到复杂的多代理工作流程的一切,并支持基于图的编排。
+  - 主要功能点
+    - 基于图的工作流程:使用数据流连接代理和确定性函数,支持流式处理、检查点、人机交互和时间旅行等功能
+    - Python 和 C#/.NET 支持:完全支持 Python 和 C#/.NET 实现,API 一致
+    - 可观察性:内置 OpenTelemetry 集成,用于分布式跟踪、监控和调试
+    - 多代理提供商支持:支持各种 LLM 提供商
+    - 中间件:灵活的中间件系统,用于请求/响应处理、异常处理和自定义管道
 - [crewAI](https://github.com/joaomdmoura/crewAI)
   - 用于编排角色扮演、自主人工智能代理的尖端框架。通过促进协作智能，CrewAI 使代理能够无缝协作，处理复杂的任务。
   - CrewAI 更加强调其易用性和快速搭建演示的特性。该平台直观易操作，主要通过编写提示来生成和配置智能体。在 CrewAI 平台上，智能体的创建和集成过程极为简便，用户能在短时间内轻松构建数百个智能体，因此它成为了追求快速制作 Multi-Agent 演示或原型开发者的首选工具。
@@ -170,3 +177,6 @@ everything about llm based agent
   - ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250121123852.png)
 - [AI Agent（智能体）技术白皮书（Google，2024）](https://drive.google.com/file/d/1oEjiRCTbd54aSdB_eEe3UShxLBWK9xkt/view?pli=1)
   - [中文版](https://arthurchiao.art/blog/ai-agent-white-paper-zh/)
+
+## 其他文章
+- [Agentic Design Patterns with LangGraph](https://freedium.cfd/https://pub.towardsai.net/agentic-design-patterns-with-langgraph-5fe7289187e6)
