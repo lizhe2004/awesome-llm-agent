@@ -17,6 +17,14 @@ everything about llm based agent
 
 # 开源项目
 ## Agent框架
+- [Lumen](https://github.com/omxyz/lumen) ![GitHub stars](https://img.shields.io/github/stars/omxyz/lumen.svg?style=flat&label=Star)
+  - Lumen 是一个视觉优先的浏览器智能体，支持自修复确定性重放。通过 CDP（Chrome DevTools Protocol）实现截图→模型→操作的循环，支持多模型（Anthropic、Google）。
+  - 主要功能点
+    - 自修复动作缓存：缓存的操作失败时自动重新评估并更新缓存
+    - 内置卡顿检测：三层检测（操作哈希、类别主导、URL 停滞）
+    - 完成验证：ModelVerifier 防止过早终止
+    - 多模型支持：Anthropic Claude 和 Google Gemini
+
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) ![GitHub stars](https://img.shields.io/github/stars/microsoft/agent-framework.svg?style=flat&label=Star)
   - Microsoft Agent Framework 是一个全面的多语言框架,用于构建、编排和部署 AI 代理,支持 .NET 和 Python 实现。该框架提供从简单的聊天代理到复杂的多代理工作流程的一切,并支持基于图的编排。
   - 主要功能点
