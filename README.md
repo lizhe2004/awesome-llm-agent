@@ -319,6 +319,7 @@ everything about llm based agent
   - [中文版](https://arthurchiao.art/blog/ai-agent-white-paper-zh/)
 ## 记忆管理
 - [Agent 为什么会“忘事”-Agent的记忆管理](https://mp.weixin.qq.com/s?__biz=Mzg4MTYwMzY1Mw==&mid=2247518479&idx=1&sn=76804f2205a06e4b92d6805e97a3529a&poc_token=HDouz2qjqk01aEUxnS-vYpph1Sa-NI9anRSmCpE7)
+- [小林面试-Codex记忆机制是怎么实现](https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247564796&idx=1&sn=1f3532e26c72ec65fa92da2c82adbfef&poc_token=HH5Xz2qjfhKy2oOpWfiEcWzT1Mxj1vUCu4Q-nPwO)
 ## 评测
 - [淘宝AI购物助手在线评测落地实践-2026-10-11](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546388&idx=1&sn=9ccd19e3c6a8ee97a5ec6a963d2eb105&poc_token=HNgwz2qjCgv3Jy2zJ9MRPrKSf_xCBvA4BaEf8lm_)
 - [美团-Agent评测漫谈 —— 由浅入深讲解Agent评测](https://tech.meituan.com/2026/08/07/Agent-Evaluation.html)
@@ -328,6 +329,8 @@ everything about llm based agent
 - [阿里-AI Agent 应用精细化评测：评测体系设计与工程实践-2026-09-02](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511370&idx=1&sn=c9f4ff1d054cb229ac2f8c1462fcb05e&poc_token=HAMvz2qjPByFgkPnUNrx-CKkvIgrZKXSCQ8Nv_L5)
 - [Anthrop - Demystifying evals for AI agents(揭秘人工智能代理的评估)](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
 - [小林面试+怎么评估 Agent](https://mp.weixin.qq.com/s?__biz=MzY4NTE2NjU5MQ==&mid=2247486110&idx=1&sn=985af26cfa7fb4a24a2cec946046a7b2&poc_token=HP0vz2qjY9p4vKrqya4_zbssdnmQi_gq1BZq3gAp)
+## Harness
+- [腾讯-换一套 Harness，比换两代模型还管用-2026-09-17](https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&mid=2247697554&idx=1&sn=78f66fec6cc85f3fbe642283b7d91cc2&poc_token=HJNYz2qjPUD5TchWwuuDGJ5TTJ9qSDrMoY8xGCax)
 ## 安全
 - [字节实践 | Agent 提示词注入攻击：一场需要长期应对的安全挑战](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247521453&idx=1&sn=a43b95ca00458d532f29d70e80f0d118&poc_token=HBIuz2qjhP8TeIFpib1V2tTFJKkBZ5HDm89pqg6N)
 ## 自演进
@@ -335,7 +338,7 @@ everything about llm based agent
 - [agent优化之GEPA——一种提示词自进化的优化方案](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650545973&idx=1&sn=01a23266cadd126c68a1a14dd0db544a&poc_token=HM8vz2qjQMDxrSwM0aYE_PpI54yZ6ZhsPXLlN-by)
 - [阿里-深度解析 RSI：当 AI 开始实现自我迭代提升-2026-10-13](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511873&idx=1&sn=8f45da7e2e5dc1513a6fb0ebc0490553&poc_token=HOEwz2qjNKSlFpv872qlLLwpexcPoXpbvF0fM5FO)
 - [Datawhale-这是一篇把"RSI"讲明白的科普级综述！](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247727603&idx=1&sn=13ba3492f438873686baa66eddb989f7&poc_token=HAQzz2qjcKiARxNyh6wK6-ZLcHUldzVzJvPAmbDM)
-- []()
+- [机器之心-从记忆到自进化：Agent 走向 RSI 的关键一步](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651062063&idx=1&sn=f91d6b290b4a38685b85a47415870873&poc_token=HK9Vz2qjikzaTe4HOztFMu5JdRSyNc0YROLEdHpG)
 ## 其他文章
 - [淘宝-Loop engineering：把 agent 放进工程循环-2026-09-21](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546258&idx=1&sn=3b972197775c805cb4a58bdfdf69618a&poc_token=HGIwz2qjDgMR0dVgOsqNXpO8N7PDMKMqb1iC2y7v)
 - [Agentic Design Patterns with LangGraph](https://freedium.cfd/https://pub.towardsai.net/agentic-design-patterns-with-langgraph-5fe7289187e6)
