@@ -297,7 +297,9 @@ everything about llm based agent
 
 # 企业级实践
 ## 整体
-- [阿里=垂类业务如何落地生产级 Agent](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511474&idx=1&sn=6f3f3e26c57b0796571649939b295123&poc_token=HNkvz2qjwrcKghdxpCbBm_IdPyu18vF_ht-NjXRg)
+- [淘宝百亿补贴数据分析助手 Agent 实战-2026-09-03](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650545717&idx=1&sn=616d9c26c3c02ce24bdb2a793b18291c&scene=21&poc_token=HFA0z2qjjb54BQ6HSCo66foBO_yt4Pg51BvonJBc)
+- [高效电商 AI 智能体解剖指南 | 选自 Anthropic 的 Claude 博客](https://baoyu.io/translations/2026-09-02/the-anatomy-of-effective-commerce-agents)
+- [阿里-垂类业务如何落地生产级 Agent](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511474&idx=1&sn=6f3f3e26c57b0796571649939b295123&poc_token=HNkvz2qjwrcKghdxpCbBm_IdPyu18vF_ht-NjXRg)
 - [哈啰出行从Copilot到Agent模式的探索-贾立 PPT](https://www.alipan.com/s/U58jxu9vrKd)
 - [Anthropic的构建智能体的经验总结和实践建议](https://www.anthropic.com/research/building-effective-agents)
 - [阿里云服务领域Agent智能体：从概念到落地的思考、设计与实践](https://mp.weixin.qq.com/s/VBdgDIpmJvrt6fNgLE7i4Q)
@@ -321,14 +323,15 @@ everything about llm based agent
 - [淘宝AI购物助手在线评测落地实践-2026-10-11](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546388&idx=1&sn=9ccd19e3c6a8ee97a5ec6a963d2eb105&poc_token=HNgwz2qjCgv3Jy2zJ9MRPrKSf_xCBvA4BaEf8lm_)
 - [美团-Agent评测漫谈 —— 由浅入深讲解Agent评测](https://tech.meituan.com/2026/08/07/Agent-Evaluation.html)
 - [美团-《Agent 评测白皮书》系列01：Agent 评测全览](https://tech.meituan.com/2026/09/10/Agent-Evaluation-White-Paper-01.html)
-- [让Agent可评、可控、可迭代：业务效果导向的评测体系与场景实践](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650545998&idx=1&sn=05272ad46f69aaf5424bb9446b165b8b&poc_token=HOwpz2qjUY0gfa0z1h1jbohsuuDvnAbEkgzMAYyG)
+- [淘宝-让Agent可评、可控、可迭代：业务效果导向的评测体系与场景实践-2026-09-17](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650545998&idx=1&sn=05272ad46f69aaf5424bb9446b165b8b&poc_token=HOwpz2qjUY0gfa0z1h1jbohsuuDvnAbEkgzMAYyG)
 - [腾讯— 一篇讲透Agent自进化飞轮怎么搭：评测→记忆→落地→控制](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649803847&idx=1&sn=abe5cab137aac47cb042b6baa1a24191&poc_token=HPItz2qjzRVG4n7qg57LDHZEpKcMUXH4-CKFeggf)
-- [AI Agent 应用精细化评测：评测体系设计与工程实践](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511370&idx=1&sn=c9f4ff1d054cb229ac2f8c1462fcb05e&poc_token=HAMvz2qjPByFgkPnUNrx-CKkvIgrZKXSCQ8Nv_L5)
+- [阿里-AI Agent 应用精细化评测：评测体系设计与工程实践-2026-09-02](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511370&idx=1&sn=c9f4ff1d054cb229ac2f8c1462fcb05e&poc_token=HAMvz2qjPByFgkPnUNrx-CKkvIgrZKXSCQ8Nv_L5)
 - [Anthrop - Demystifying evals for AI agents(揭秘人工智能代理的评估)](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
 - [小林面试+怎么评估 Agent](https://mp.weixin.qq.com/s?__biz=MzY4NTE2NjU5MQ==&mid=2247486110&idx=1&sn=985af26cfa7fb4a24a2cec946046a7b2&poc_token=HP0vz2qjY9p4vKrqya4_zbssdnmQi_gq1BZq3gAp)
 ## 安全
 - [字节实践 | Agent 提示词注入攻击：一场需要长期应对的安全挑战](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247521453&idx=1&sn=a43b95ca00458d532f29d70e80f0d118&poc_token=HBIuz2qjhP8TeIFpib1V2tTFJKkBZ5HDm89pqg6N)
 ## 其他文章
+- [淘宝-Loop engineering：把 agent 放进工程循环-2026-09-21](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546258&idx=1&sn=3b972197775c805cb4a58bdfdf69618a&poc_token=HGIwz2qjDgMR0dVgOsqNXpO8N7PDMKMqb1iC2y7v)
 - [Agentic Design Patterns with LangGraph](https://freedium.cfd/https://pub.towardsai.net/agentic-design-patterns-with-langgraph-5fe7289187e6)
 
 ## 图书
