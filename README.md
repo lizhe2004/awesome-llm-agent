@@ -295,14 +295,14 @@ everything about llm based agent
 - [AI Agents in LangGraph](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/)
 - [Multi AI Agent Systems with crewAI](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)
 
-## 企业级实践
+# 企业级实践
+## 整体
+- [阿里=垂类业务如何落地生产级 Agent](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511474&idx=1&sn=6f3f3e26c57b0796571649939b295123&poc_token=HNkvz2qjwrcKghdxpCbBm_IdPyu18vF_ht-NjXRg)
 - [哈啰出行从Copilot到Agent模式的探索-贾立 PPT](https://www.alipan.com/s/U58jxu9vrKd)
 - [Anthropic的构建智能体的经验总结和实践建议](https://www.anthropic.com/research/building-effective-agents)
 - [阿里云服务领域Agent智能体：从概念到落地的思考、设计与实践](https://mp.weixin.qq.com/s/VBdgDIpmJvrt6fNgLE7i4Q)
 - [支付宝百宝箱团队的技术负责人的AI Agent 综述分享](https://mp.weixin.qq.com/s/HrKOGXuI8wVM6qgylKZ8qw)
 - [2025-10-24 阿里：Apache RocketMQ × AI：面向 Multi-Agent 的事件驱动架构](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247508890&idx=1&sn=5b08490308cdf32cc37727881aab25d3&poc_token=HN1-AWmjxkkx1Ug8vFNFcoqJq4S1VkMP-dngiI-y)
-- 
-## 行业最佳实践指南
 - [2025-10-20 腾讯：一文讲懂Agent及其主流框架：自己想、自己干、自己复盘的才是好Agent！](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649796189&idx=1&sn=edc8db54287983686dd354c0a2beb208&poc_token=HGN_AWmjhiVge672H5-_rxqmh8qeHHmkRndWAHZB)
 - [2025-10-24 阿里云：浅谈上下文工程｜从 Claude Code 、Manus 和 Kiro 看提示工程到上下文工程的转变](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247554461&idx=1&sn=e52d01dd0832ede6a6cc146c152b39a1&poc_token=HNR-AWmjcRM74TSMHmrKV8lgaQtDVVWJ-vQWCtaz)
 - [Anthropic:Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
@@ -315,8 +315,19 @@ everything about llm based agent
   - ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250121123852.png)
 - [AI Agent（智能体）技术白皮书（Google，2024）](https://drive.google.com/file/d/1oEjiRCTbd54aSdB_eEe3UShxLBWK9xkt/view?pli=1)
   - [中文版](https://arthurchiao.art/blog/ai-agent-white-paper-zh/)
-
-
+## 记忆管理
+- [Agent 为什么会“忘事”-Agent的记忆管理](https://mp.weixin.qq.com/s?__biz=Mzg4MTYwMzY1Mw==&mid=2247518479&idx=1&sn=76804f2205a06e4b92d6805e97a3529a&poc_token=HDouz2qjqk01aEUxnS-vYpph1Sa-NI9anRSmCpE7)
+## 评测
+- [淘宝AI购物助手在线评测落地实践-2026-10-11](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546388&idx=1&sn=9ccd19e3c6a8ee97a5ec6a963d2eb105&poc_token=HNgwz2qjCgv3Jy2zJ9MRPrKSf_xCBvA4BaEf8lm_)
+- [美团-Agent评测漫谈 —— 由浅入深讲解Agent评测](https://tech.meituan.com/2026/08/07/Agent-Evaluation.html)
+- [美团-《Agent 评测白皮书》系列01：Agent 评测全览](https://tech.meituan.com/2026/09/10/Agent-Evaluation-White-Paper-01.html)
+- [让Agent可评、可控、可迭代：业务效果导向的评测体系与场景实践](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650545998&idx=1&sn=05272ad46f69aaf5424bb9446b165b8b&poc_token=HOwpz2qjUY0gfa0z1h1jbohsuuDvnAbEkgzMAYyG)
+- [腾讯— 一篇讲透Agent自进化飞轮怎么搭：评测→记忆→落地→控制](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649803847&idx=1&sn=abe5cab137aac47cb042b6baa1a24191&poc_token=HPItz2qjzRVG4n7qg57LDHZEpKcMUXH4-CKFeggf)
+- [AI Agent 应用精细化评测：评测体系设计与工程实践](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511370&idx=1&sn=c9f4ff1d054cb229ac2f8c1462fcb05e&poc_token=HAMvz2qjPByFgkPnUNrx-CKkvIgrZKXSCQ8Nv_L5)
+- [Anthrop - Demystifying evals for AI agents(揭秘人工智能代理的评估)](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
+- [小林面试+怎么评估 Agent](https://mp.weixin.qq.com/s?__biz=MzY4NTE2NjU5MQ==&mid=2247486110&idx=1&sn=985af26cfa7fb4a24a2cec946046a7b2&poc_token=HP0vz2qjY9p4vKrqya4_zbssdnmQi_gq1BZq3gAp)
+## 安全
+- [字节实践 | Agent 提示词注入攻击：一场需要长期应对的安全挑战](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247521453&idx=1&sn=a43b95ca00458d532f29d70e80f0d118&poc_token=HBIuz2qjhP8TeIFpib1V2tTFJKkBZ5HDm89pqg6N)
 ## 其他文章
 - [Agentic Design Patterns with LangGraph](https://freedium.cfd/https://pub.towardsai.net/agentic-design-patterns-with-langgraph-5fe7289187e6)
 
