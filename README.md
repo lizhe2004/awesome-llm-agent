@@ -330,6 +330,12 @@ everything about llm based agent
 - [小林面试+怎么评估 Agent](https://mp.weixin.qq.com/s?__biz=MzY4NTE2NjU5MQ==&mid=2247486110&idx=1&sn=985af26cfa7fb4a24a2cec946046a7b2&poc_token=HP0vz2qjY9p4vKrqya4_zbssdnmQi_gq1BZq3gAp)
 ## 安全
 - [字节实践 | Agent 提示词注入攻击：一场需要长期应对的安全挑战](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247521453&idx=1&sn=a43b95ca00458d532f29d70e80f0d118&poc_token=HBIuz2qjhP8TeIFpib1V2tTFJKkBZ5HDm89pqg6N)
+## 自演进
+- [谷歌重磅发布WikiSkill，技能可以自己进化了！](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247725815&idx=1&sn=6dc8d200fbcabc937f0093929522430a&poc_token=HCUuz2qj5KrzRXP-yOii7ZZUZfJzTjIs2Ts5YRfr)
+- [agent优化之GEPA——一种提示词自进化的优化方案](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650545973&idx=1&sn=01a23266cadd126c68a1a14dd0db544a&poc_token=HM8vz2qjQMDxrSwM0aYE_PpI54yZ6ZhsPXLlN-by)
+- [阿里-深度解析 RSI：当 AI 开始实现自我迭代提升-2026-10-13](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511873&idx=1&sn=8f45da7e2e5dc1513a6fb0ebc0490553&poc_token=HOEwz2qjNKSlFpv872qlLLwpexcPoXpbvF0fM5FO)
+- [Datawhale-这是一篇把"RSI"讲明白的科普级综述！](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247727603&idx=1&sn=13ba3492f438873686baa66eddb989f7&poc_token=HAQzz2qjcKiARxNyh6wK6-ZLcHUldzVzJvPAmbDM)
+- []()
 ## 其他文章
 - [淘宝-Loop engineering：把 agent 放进工程循环-2026-09-21](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546258&idx=1&sn=3b972197775c805cb4a58bdfdf69618a&poc_token=HGIwz2qjDgMR0dVgOsqNXpO8N7PDMKMqb1iC2y7v)
 - [Agentic Design Patterns with LangGraph](https://freedium.cfd/https://pub.towardsai.net/agentic-design-patterns-with-langgraph-5fe7289187e6)
