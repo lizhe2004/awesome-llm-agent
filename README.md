@@ -1,6 +1,25 @@
 # awesome-llm-agent
 everything about llm based agent
  latest update: 2025-12-19
+--- 
+
+- [论文](#论文)
+  - [综述](#综述)
+- [开源项目](#开源项目)
+  - [Agent框架](#Agent框架)
+  - [Agent记忆框架](#Agent记忆框架)
+  - [Agent应用](#Agent应用)
+  - [工具](#工具)
+  - [安全护栏](#安全护栏)
+- [指南手册](#指南手册)
+- [课程](#课程)
+- [企业级实践](#企业级实践)
+- [行业最佳实践指南](#行业最佳实践指南)
+- [其他文章](#其他文章)
+- [视频](#视频)
+- [图书](#图书)
+--- 
+ 
 # 论文
 ## 综述
 - [A Survey of Agent Skills: Toward Procedural Infrastructure for LLM Agents](https://www.preprints.org/manuscript/202605.1276)
