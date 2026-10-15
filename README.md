@@ -1,6 +1,6 @@
 # awesome-llm-agent
 everything about llm based agent
- latest update: 2025-12-19
+ latest update: 2027-10-15
 --- 
 
 - [论文](#论文)
@@ -15,7 +15,14 @@ everything about llm based agent
 - [课程](#课程)
 - [企业级实践](#企业级实践)
 - [行业最佳实践指南](#行业最佳实践指南)
-- [其他文章](#其他文章)
+  - [整体](#整体)
+  - [记忆管理](#记忆管理)
+  - [评测](#评测)
+  - [Harness](#Harness)
+  - [自演进](#自演进)
+  - [Context Engineering](#Context Engineering)
+  - [Skills](#Skills)
+  - [其他文章](#其他文章)
 - [视频](#视频)
 - [图书](#图书)
 --- 
@@ -297,7 +304,10 @@ everything about llm based agent
 
 # 企业级实践
 ## 整体
+- [阿里：从 Agent Flow 到 AI Native：为什么通用 Agent 是“饮鸩止渴”](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247510883&idx=1&sn=1988e51340f0d9a22b2e6908fc60eddc&poc_token=HBhez2qjQ5xbX7bOSwwhBMyVpUb12w6RqyUPykb7)
+- [从一次 LLM 调用到完整 Harness，Agent 到底经历了什么？](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649803963&idx=1&sn=ec0730b1274a0b52382df956d8583215)
 - [淘宝百亿补贴数据分析助手 Agent 实战-2026-09-03](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650545717&idx=1&sn=616d9c26c3c02ce24bdb2a793b18291c&scene=21&poc_token=HFA0z2qjjb54BQ6HSCo66foBO_yt4Pg51BvonJBc)
+- [高德本地生活分析 Agent 的 AI Native 实践全景（万字长文回顾）](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511846&idx=1&sn=e281c6ff590a8209e7d6e2719ee4e58a&poc_token=HHVfz2qjRy1G8D-NL4uuxWIAirlNtGc_atnjovX9)
 - [高效电商 AI 智能体解剖指南 | 选自 Anthropic 的 Claude 博客](https://baoyu.io/translations/2026-09-02/the-anatomy-of-effective-commerce-agents)
 - [阿里-垂类业务如何落地生产级 Agent](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511474&idx=1&sn=6f3f3e26c57b0796571649939b295123&poc_token=HNkvz2qjwrcKghdxpCbBm_IdPyu18vF_ht-NjXRg)
 - [哈啰出行从Copilot到Agent模式的探索-贾立 PPT](https://www.alipan.com/s/U58jxu9vrKd)
@@ -306,8 +316,8 @@ everything about llm based agent
 - [支付宝百宝箱团队的技术负责人的AI Agent 综述分享](https://mp.weixin.qq.com/s/HrKOGXuI8wVM6qgylKZ8qw)
 - [2025-10-24 阿里：Apache RocketMQ × AI：面向 Multi-Agent 的事件驱动架构](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247508890&idx=1&sn=5b08490308cdf32cc37727881aab25d3&poc_token=HN1-AWmjxkkx1Ug8vFNFcoqJq4S1VkMP-dngiI-y)
 - [2025-10-20 腾讯：一文讲懂Agent及其主流框架：自己想、自己干、自己复盘的才是好Agent！](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649796189&idx=1&sn=edc8db54287983686dd354c0a2beb208&poc_token=HGN_AWmjhiVge672H5-_rxqmh8qeHHmkRndWAHZB)
-- [2025-10-24 阿里云：浅谈上下文工程｜从 Claude Code 、Manus 和 Kiro 看提示工程到上下文工程的转变](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247554461&idx=1&sn=e52d01dd0832ede6a6cc146c152b39a1&poc_token=HNR-AWmjcRM74TSMHmrKV8lgaQtDVVWJ-vQWCtaz)
-- [Anthropic:Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
+- [智能体（Agent）全景拆解：核心模块、技术实现与业务落地指南](https://mp.weixin.qq.com/s?__biz=MzAxOTY5MDMxNA==&mid=2455765235&idx=1&sn=27aa1e2f56c152dec51d2576b069e0cf&poc_token=HKRez2qj9bNoNM1-WU3lcQmxwurmem5VBj5gd_hF)
+
 - [Rebuilding Devin for Claude Sonnet 4.5: Lessons and Challenges](https://cognition.ai/blog/devin-sonnet-4-5-lessons-and-challenges)
 - [OpenAI:Context Engineering - Short-Term Memory Management with Sessions](https://cookbook.openai.com/examples/agents_sdk/session_memory)
 - [Claude官方Anthropic的构建智能体的经验总结和实践建议：构建高效智能体](https://www.anthropic.com/research/building-effective-agents)
@@ -320,6 +330,12 @@ everything about llm based agent
 ## 记忆管理
 - [Agent 为什么会“忘事”-Agent的记忆管理](https://mp.weixin.qq.com/s?__biz=Mzg4MTYwMzY1Mw==&mid=2247518479&idx=1&sn=76804f2205a06e4b92d6805e97a3529a&poc_token=HDouz2qjqk01aEUxnS-vYpph1Sa-NI9anRSmCpE7)
 - [小林面试-Codex记忆机制是怎么实现](https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247564796&idx=1&sn=1f3532e26c72ec65fa92da2c82adbfef&poc_token=HH5Xz2qjfhKy2oOpWfiEcWzT1Mxj1vUCu4Q-nPwO)
+- [小红书-EMNLP 2026｜MemPro：让 Agent 的记忆系统学会自我进化](https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg==&mid=2247496400&idx=1&sn=64957c6e3a95d71fe7a51146825c04db&poc_token=HCpaz2qjhzUMuRdSSPTE3WtFdZokBBBQpBh-V1UN)
+- [淘宝-让 Agent 像人一样记忆：本地长期记忆系统 HL-Mem 的设计与取舍-2026-09-11](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650545942&idx=1&sn=059fb0899702c46fe339f0a80aef90ab&poc_token=HJVbz2qjgcxboYF3i-xv8SHwNlQFznGmSpk8JOJP)
+- [360奇舞-Agent 为什么会“忘事”-Agent的记忆管理](https://mp.weixin.qq.com/s?__biz=Mzg4MTYwMzY1Mw==&mid=2247518479&idx=1&sn=76804f2205a06e4b92d6805e97a3529a&poc_token=HD5cz2qjVlGSWCMN7OcqCP2XQb8MFjnK2Ydw-ec7)
+- [得物技术-企业级 MultiAgent 的记忆系统：短期上下文与四层记忆架构实现](https://mp.weixin.qq.com/s?__biz=MzkxNTE3ODU0NA==&mid=2247546577&idx=1&sn=e958fbb5a7701d92612f0da1549ad0ad)
+- [支付宝-仿照大脑记忆机制，给 AI 装了一个海马体，拿到了 SOTA](https://mp.weixin.qq.com/s?__biz=Mzg2OTYyODU0NQ==&mid=2247521407&idx=1&sn=0ec9855e1824efd139dcda5191cfd4c3)
+- [深度拆解 Hermes Agent 的记忆系统：它如何修正 OpenClaw 的误区](https://baoyu.io/blog/2026-04-29/manthanguptaa-2034849672985288957)
 ## 评测
 - [淘宝AI购物助手在线评测落地实践-2026-10-11](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546388&idx=1&sn=9ccd19e3c6a8ee97a5ec6a963d2eb105&poc_token=HNgwz2qjCgv3Jy2zJ9MRPrKSf_xCBvA4BaEf8lm_)
 - [美团-Agent评测漫谈 —— 由浅入深讲解Agent评测](https://tech.meituan.com/2026/08/07/Agent-Evaluation.html)
@@ -329,8 +345,13 @@ everything about llm based agent
 - [阿里-AI Agent 应用精细化评测：评测体系设计与工程实践-2026-09-02](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511370&idx=1&sn=c9f4ff1d054cb229ac2f8c1462fcb05e&poc_token=HAMvz2qjPByFgkPnUNrx-CKkvIgrZKXSCQ8Nv_L5)
 - [Anthrop - Demystifying evals for AI agents(揭秘人工智能代理的评估)](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
 - [小林面试+怎么评估 Agent](https://mp.weixin.qq.com/s?__biz=MzY4NTE2NjU5MQ==&mid=2247486110&idx=1&sn=985af26cfa7fb4a24a2cec946046a7b2&poc_token=HP0vz2qjY9p4vKrqya4_zbssdnmQi_gq1BZq3gAp)
+- [阿里-Agent 越改越乱之后，我用评测和轨迹把它拉回来了](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511106&idx=1&sn=e3e481953f140ab1a9afb73f7c40221f)
+
 ## Harness
 - [腾讯-换一套 Harness，比换两代模型还管用-2026-09-17](https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&mid=2247697554&idx=1&sn=78f66fec6cc85f3fbe642283b7d91cc2&poc_token=HJNYz2qjPUD5TchWwuuDGJ5TTJ9qSDrMoY8xGCax)
+- [腾讯：DeepSeek Harness背后的“心脏”：Cordis 到底是什么](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649803959&idx=1&sn=9d18ecc2139e8ab90a44515ca64b0db5)
+- [百度：都在开源 Harness，Codex 和 DeepSeek 到底有什么不一样？](https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607560&idx=1&sn=377945189293dcd34a7b23fd6256e40d)
+- [DeepSeek Harness：重新设计 Agent 运行时](https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607531&idx=1&sn=f1115d58767f05a34b5778fbdf468056)
 ## 安全
 - [字节实践 | Agent 提示词注入攻击：一场需要长期应对的安全挑战](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247521453&idx=1&sn=a43b95ca00458d532f29d70e80f0d118&poc_token=HBIuz2qjhP8TeIFpib1V2tTFJKkBZ5HDm89pqg6N)
 ## 自演进
@@ -339,9 +360,20 @@ everything about llm based agent
 - [阿里-深度解析 RSI：当 AI 开始实现自我迭代提升-2026-10-13](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511873&idx=1&sn=8f45da7e2e5dc1513a6fb0ebc0490553&poc_token=HOEwz2qjNKSlFpv872qlLLwpexcPoXpbvF0fM5FO)
 - [Datawhale-这是一篇把"RSI"讲明白的科普级综述！](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247727603&idx=1&sn=13ba3492f438873686baa66eddb989f7&poc_token=HAQzz2qjcKiARxNyh6wK6-ZLcHUldzVzJvPAmbDM)
 - [机器之心-从记忆到自进化：Agent 走向 RSI 的关键一步](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651062063&idx=1&sn=f91d6b290b4a38685b85a47415870873&poc_token=HK9Vz2qjikzaTe4HOztFMu5JdRSyNc0YROLEdHpG)
+- [万字长文读懂 RSI](https://mp.weixin.qq.com/s?__biz=MjM5ODkzMzMwMQ==&mid=2650454389&idx=1&sn=1c243e38c29f80b7e9fd1cd73e8fa7ca&poc_token=HDdbz2qj3oNDFZQGk30xNM-ZeUv5qTXdhUOxUK7O)
+- [Agent如何自己变强？从Skill到模型权重的进化全景图](https://mp.weixin.qq.com/s?__biz=MzYzMTE5MDgxNA%3D%3D&mid=2247484854&idx=1&sn=88d218f5246dc729e7f61bb69218d989&scene=45&poc_token=HBNcz2qjfP6Ht6eJhWL25vm1OtdwRwn9auDCWgb8)
+
+## Context Engineering
+- [腾讯：AI工程范式的跃迁，一文讲透Context Engineering！](https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&mid=2247697260&idx=1&sn=bbda847cb4e895e1ea99caf5acec9923)
+- [2025-10-24 阿里云：浅谈上下文工程｜从 Claude Code 、Manus 和 Kiro 看提示工程到上下文工程的转变](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247554461&idx=1&sn=e52d01dd0832ede6a6cc146c152b39a1&poc_token=HNR-AWmjcRM74TSMHmrKV8lgaQtDVVWJ-vQWCtaz)
+- [Anthropic:Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
+## Skills
+- [企业Agent落地实践：统一Harness、Skill与虚拟文件系统](https://mp.weixin.qq.com/s?__biz=MzkzMjYzNjkzNw==&mid=2247637773&idx=1&sn=df4967bef8b79cfd4139b2bf3e72af55&poc_token=HPxbz2qj50qGXGVAQj--kURI_3Gpi-Ff7tk-bgzW)
 ## 其他文章
 - [淘宝-Loop engineering：把 agent 放进工程循环-2026-09-21](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546258&idx=1&sn=3b972197775c805cb4a58bdfdf69618a&poc_token=HGIwz2qjDgMR0dVgOsqNXpO8N7PDMKMqb1iC2y7v)
 - [Agentic Design Patterns with LangGraph](https://freedium.cfd/https://pub.towardsai.net/agentic-design-patterns-with-langgraph-5fe7289187e6)
+- [阿里：从 Loop 到 Graph Engineering 的演进思考与实战](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247562254&idx=1&sn=77b80c213b5e45ae40cdb09a0a6c15dd)
+- [阿里云：从 ReAct 到 Agent Teams：一个工程师视角的 Agent 协作机制思考](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247562213&idx=1&sn=b5d701423e4bcb9c5775a7c6af19e234)
 
 ## 图书
 - [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents)
