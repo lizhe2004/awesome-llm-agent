@@ -29,3 +29,5 @@
 [腾讯：AI写得快 ≠ 真正提效：一文讲清Harness“记忆”和“验证闭环”](https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&mid=2247697619&idx=1&sn=24b9b00aeb06f6a9d348f01c3b9688e6&poc_token=HF86z2qjEQ0yoT30xpq0nk_SfM647abqaSH8Oe7B)
 
 [TLS 全链路可观测体系：破解 LLM 应用黑盒，实现会话透明复盘](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247522374&idx=1&sn=33c26eab48cc34d99c8e25423a715489&poc_token=HMlhz2qj8O1crxkxUnJALztwkzXTbhKr-GH_vJ0G)
+
+[快手：AI提效进入深水区：快手如何从研发效能跃迁到企业AI生产力？](https://mp.weixin.qq.com/s?__biz=Mzg2NzU4MDM0MQ==&mid=2247501472&idx=1&sn=b903cbbe9e9aa5bc57f61ee5461b5a39&poc_token=HLKE0GqjUFn8hi6ZdSdzbpowAqALq0NX7ivdKjNt)
