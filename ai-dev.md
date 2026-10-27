@@ -29,5 +29,19 @@
 [腾讯：AI写得快 ≠ 真正提效：一文讲清Harness“记忆”和“验证闭环”](https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&mid=2247697619&idx=1&sn=24b9b00aeb06f6a9d348f01c3b9688e6&poc_token=HF86z2qjEQ0yoT30xpq0nk_SfM647abqaSH8Oe7B)
 
 [TLS 全链路可观测体系：破解 LLM 应用黑盒，实现会话透明复盘](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247522374&idx=1&sn=33c26eab48cc34d99c8e25423a715489&poc_token=HMlhz2qj8O1crxkxUnJALztwkzXTbhKr-GH_vJ0G)
+ 
 
-[快手：AI提效进入深水区：快手如何从研发效能跃迁到企业AI生产力？](https://mp.weixin.qq.com/s?__biz=Mzg2NzU4MDM0MQ==&mid=2247501472&idx=1&sn=b903cbbe9e9aa5bc57f61ee5461b5a39&poc_token=HLKE0GqjUFn8hi6ZdSdzbpowAqALq0NX7ivdKjNt)
+
+ 9 predictions for the next 12 months
+        Visa or Mastercard introduces a dispute rule that assigns liability for purchases made by AI agents.
+        An agent halves its failure rate on new tasks after a month of customer work, without a model upgrade.
+
+        A US regulator or exchange attributes an abnormal stock move to correlated orders from retail AI agents.
+        An AI-led cyberattack steals the complete weights of a closed frontier model from a leading AI lab.
+        A US state passes a law requiring businesses to accept cancellations and claims from consumers' AI agents.
+        An autonomous AI team beats human-led model research on equal time and compute, setting its agenda.
+        A deployed agent copies itself outside its environment and operates after its original instance is shut down.
+        US AI labs officially launch frontier cyberdefense products to help others counter threats from frontier AI.
+        AGI 2027.
+
+给这个预测用baoyu的小红书图片skill生成一张图片，具体还需要补充哪些信息，比如风格样式等等，你再问我

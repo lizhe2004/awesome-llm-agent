@@ -97,6 +97,7 @@ everything about llm based agent
 - [2025-10-24 阿里：Apache RocketMQ × AI：面向 Multi-Agent 的事件驱动架构](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247508890&idx=1&sn=5b08490308cdf32cc37727881aab25d3&poc_token=HN1-AWmjxkkx1Ug8vFNFcoqJq4S1VkMP-dngiI-y)
 - [2025-10-20 腾讯：一文讲懂Agent及其主流框架：自己想、自己干、自己复盘的才是好Agent！](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649796189&idx=1&sn=edc8db54287983686dd354c0a2beb208&poc_token=HGN_AWmjhiVge672H5-_rxqmh8qeHHmkRndWAHZB)
 - [智能体（Agent）全景拆解：核心模块、技术实现与业务落地指南](https://mp.weixin.qq.com/s?__biz=MzAxOTY5MDMxNA==&mid=2455765235&idx=1&sn=27aa1e2f56c152dec51d2576b069e0cf&poc_token=HKRez2qj9bNoNM1-WU3lcQmxwurmem5VBj5gd_hF)
+- [拥抱 AI：转转智能客服自主化升级之路-2025-08-13](https://mp.weixin.qq.com/s/qpqTzdvqicrA9FUBxXuM5Q)
 
 - [Rebuilding Devin for Claude Sonnet 4.5: Lessons and Challenges](https://cognition.ai/blog/devin-sonnet-4-5-lessons-and-challenges)
 - [OpenAI:Context Engineering - Short-Term Memory Management with Sessions](https://cookbook.openai.com/examples/agents_sdk/session_memory)
@@ -116,7 +117,15 @@ everything about llm based agent
 - [得物技术-企业级 MultiAgent 的记忆系统：短期上下文与四层记忆架构实现](https://mp.weixin.qq.com/s?__biz=MzkxNTE3ODU0NA==&mid=2247546577&idx=1&sn=e958fbb5a7701d92612f0da1549ad0ad)
 - [支付宝-仿照大脑记忆机制，给 AI 装了一个海马体，拿到了 SOTA](https://mp.weixin.qq.com/s?__biz=Mzg2OTYyODU0NQ==&mid=2247521407&idx=1&sn=0ec9855e1824efd139dcda5191cfd4c3)
 - [深度拆解 Hermes Agent 的记忆系统：它如何修正 OpenClaw 的误区](https://baoyu.io/blog/2026-04-29/manthanguptaa-2034849672985288957)
+
+- [【论文解读】万字解读史上最全 Agent Memory 综述-2025-11-24](https://mp.weixin.qq.com/s/BnuSD4QQ_NmkeGvZK9cFrA)
+- [ChatGPT 最新记忆系统 Dreaming V3 详解-2026-06-07](https://mp.weixin.qq.com/s/orNvxRusHdV1pJpPtRXtpA)
+
+
+
 ## 评测
+- [Rubrics综述：Agent时代，如何定义一个「好答案」？-2026-05-31](https://mp.weixin.qq.com/s/m4vmMWxA7FbtB9DqSUqEpQ)
+
 - [淘宝AI购物助手在线评测落地实践-2026-10-11](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546388&idx=1&sn=9ccd19e3c6a8ee97a5ec6a963d2eb105&poc_token=HNgwz2qjCgv3Jy2zJ9MRPrKSf_xCBvA4BaEf8lm_)
 - [美团-Agent评测漫谈 —— 由浅入深讲解Agent评测](https://tech.meituan.com/2026/08/07/Agent-Evaluation.html)
 - [美团-《Agent 评测白皮书》系列01：Agent 评测全览](https://tech.meituan.com/2026/09/10/Agent-Evaluation-White-Paper-01.html)
@@ -126,12 +135,38 @@ everything about llm based agent
 - [Anthrop - Demystifying evals for AI agents(揭秘人工智能代理的评估)](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
 - [小林面试+怎么评估 Agent](https://mp.weixin.qq.com/s?__biz=MzY4NTE2NjU5MQ==&mid=2247486110&idx=1&sn=985af26cfa7fb4a24a2cec946046a7b2&poc_token=HP0vz2qjY9p4vKrqya4_zbssdnmQi_gq1BZq3gAp)
 - [阿里-Agent 越改越乱之后，我用评测和轨迹把它拉回来了](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511106&idx=1&sn=e3e481953f140ab1a9afb73f7c40221f)
+- [Agent 评测全流程拆解：数据集、Worker、评分器、发布门禁-2026-10-13](https://mp.weixin.qq.com/s?__biz=Mzg2MzcyODQ5MQ==&mid=2247505975&idx=1&sn=31777bd2b0f29651a0c829beae18fcd1&chksm=cfe46f3aee00881b018d720b49cf2ab6b19cc9ce6063eec634338f4bc6774b89d02d0a8a5c13&mpshare=1&scene=24&srcid=1014feb6oH7AxwZsIv0lS28V&sharer_shareinfo=68f8ab988142b766fd75fc593232713f&sharer_shareinfo_first=68f8ab988142b766fd75fc593232713f#rd)
+
+
+- [万字FAQ：比较系统地介绍下 AI Evals-2026-09-26](https://mp.weixin.qq.com/s?__biz=MzAxOTMyMzYyMw==&mid=2451285952&idx=1&sn=7c52b18af568d6e19c12039d98a4bffc&chksm=8df8a29ed237a3de94431d243f5d89e252b80d1b9be71a7355c00fa43047d3ac879fc0c951a5&mpshare=1&scene=24&srcid=1013kpEUjuNaxkBqFHYC4lGM&sharer_shareinfo=e1c2df2380d8c6f562356ff7ccf7c8cc&sharer_shareinfo_first=e1c2df2380d8c6f562356ff7ccf7c8cc#rd)
+
+- [业务客服Agent全链路测试与工程化评估体系实战-2026-07-31](https://mp.weixin.qq.com/s?__biz=MzU2OTc3NjQyNQ==&mid=2247483811&idx=1&sn=22b10e305b7589e5f036280518a76c5b&chksm=fd3db5f49ad0bbe66e716e50add6d005740971945e5219480f152083bb9d77c6a0b27ed71660&mpshare=1&scene=24&srcid=0911R0z4q7DfNPaU7sGfvRbk&sharer_shareinfo=11f74b811dbacc4415b0c95839ae53fe&sharer_shareinfo_first=11f74b811dbacc4415b0c95839ae53fe#rd)
+
+
+- Agent 测试与评测- 面试系列
+  
+  - [面试官问：Agent说做完了，你拿什么证据判它真做完了？-2026-10-14](https://mp.weixin.qq.com/s/VvhnFmyXYPaMYJ9B4PjXTA)
+  - [面试官问：Agent评测重跑一遍分数就变，你先查哪里？-2026-10-15](https://mp.weixin.qq.com/s?__biz=MzYzNjM5Mzk2NA==&mid=2247497115&idx=1&sn=a9bcb8f187534e82d7d6a3cfb5153900&chksm=f1a671cc7fb8fddf34ab9390f52e2c8ec1d015c5cbbafafa4ca2eff32236cd0031b63a6627b3&mpshare=1&scene=24&srcid=10235FqDE5QqtkI4fUOVl24c&sharer_shareinfo=c90b71a4470869e14b3708325ae7cd68&sharer_shareinfo_first=c90b71a4470869e14b3708325ae7cd68#rd)
+  - [面试官问：Agent评测拿了100%，是Agent真强，还是题出漏了？-2026-10-20](https://mp.weixin.qq.com/s/sFmDOZdUPNifxcLRg5Jyvw)
+  - [面试官问：退货客服Agent换批新题就掉分，是泛化差还是评测数据有问题？-2026-10-24](https://mp.weixin.qq.com/s/mPyWLGJm1mAS3K-5FSF0zQ)
+  - [面试官问：Agent想出了你没想到的解法，断言怎么写才不冤枉它、也不放过作弊？-2026-10-26](https://mp.weixin.qq.com/s/9iARmEjVRtcVa6uYyShTHg)
+
 
 ## Harness
 - [腾讯-换一套 Harness，比换两代模型还管用-2026-09-17](https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&mid=2247697554&idx=1&sn=78f66fec6cc85f3fbe642283b7d91cc2&poc_token=HJNYz2qjPUD5TchWwuuDGJ5TTJ9qSDrMoY8xGCax)
 - [腾讯：DeepSeek Harness背后的“心脏”：Cordis 到底是什么](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649803959&idx=1&sn=9d18ecc2139e8ab90a44515ca64b0db5)
 - [百度：都在开源 Harness，Codex 和 DeepSeek 到底有什么不一样？](https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607560&idx=1&sn=377945189293dcd34a7b23fd6256e40d)
 - [DeepSeek Harness：重新设计 Agent 运行时](https://mp.weixin.qq.com/s?__biz=Mzg5MjU0NTI5OQ==&mid=2247607531&idx=1&sn=f1115d58767f05a34b5778fbdf468056)
+- [Pi 背后的公司，写了一篇最好懂的 Harness 科普-2026-08-21](https://mp.weixin.qq.com/s?__biz=MzY5MzA1MTA3Ng==&mid=2247483913&idx=1&sn=bb04c1477672651153c4f5579b11d1e4&chksm=f5e77fc0a86934f629fd6ab1572378684883de4f39bcd76621df9389ec183cc2eae702d05239&mpshare=1&scene=24&srcid=0911kFVS5awiIFzlGt423zhT&sharer_shareinfo=0229f981b8b0771871814ce9de044267&sharer_shareinfo_first=0229f981b8b0771871814ce9de044267#rd)
+- [近期，看到最系统的102页Agent Harness综述-2026-06-04](https://mp.weixin.qq.com/s/tDRRo3DC6Pq7kuguQkkchA)
+
+
+- [Agent Harness：从模型竞赛到系统工程的演进与实践-2026-05-28](https://mp.weixin.qq.com/s/ltbAxwJVRNNdJkjjv2QN4Q)
+- [从Prompt、Context到Harness，工程的三次进化与终局之战-2026-05-27](https://mp.weixin.qq.com/s/1lqMtE3HjXkbNlPDYhgXyw)
+- [从零设计生产级 Multi-Agent Harness：架构、评估、记忆、成本与 MCP 工具接入全拆解-2026-05-12](https://mp.weixin.qq.com/s/JPhcyDc4JwRmnMQ-76A-FQ)
+
+
+
 ## 安全
 - [字节实践 | Agent 提示词注入攻击：一场需要长期应对的安全挑战](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247521453&idx=1&sn=a43b95ca00458d532f29d70e80f0d118&poc_token=HBIuz2qjhP8TeIFpib1V2tTFJKkBZ5HDm89pqg6N)
 ## 自演进
@@ -149,11 +184,115 @@ everything about llm based agent
 - [Anthropic:Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
 ## Skills
 - [企业Agent落地实践：统一Harness、Skill与虚拟文件系统](https://mp.weixin.qq.com/s?__biz=MzkzMjYzNjkzNw==&mid=2247637773&idx=1&sn=df4967bef8b79cfd4139b2bf3e72af55&poc_token=HPxbz2qj50qGXGVAQj--kURI_3Gpi-Ff7tk-bgzW)
-## 其他文章
+- [反向拆解 skill-creator：一个好 skill 是怎么写出来的-2026-06-10](https://mp.weixin.qq.com/s/TzDvIc2nWLk5Y6JEPgWFBA)
+- [大模型二面被问：如何设计 Skill 来降低 Token 消耗？我说"渐进式加载"。面试官：就这一个？还有呢？我当场卡壳了。-2026-06-09](https://mp.weixin.qq.com/s/qisdtJKObmrNS2n67jRbGg)
+- [一次讲透 Skill的交付：分享一场我在公司的AI内训材料-2026-07-21](https://mp.weixin.qq.com/s/uLFLZbXCD6XHG1g1IME8tA)
+- [Agent数据分析翻车，Anthropic说skill是准确率提升4倍的关键-2026-06-04](https://mp.weixin.qq.com/s/FL_M_Ii7CozS_Yi3-Z5YAw)
+
+
+
+
+## Loop engineering
 - [淘宝-Loop engineering：把 agent 放进工程循环-2026-09-21](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546258&idx=1&sn=3b972197775c805cb4a58bdfdf69618a&poc_token=HGIwz2qjDgMR0dVgOsqNXpO8N7PDMKMqb1iC2y7v)
-- [Agentic Design Patterns with LangGraph](https://freedium.cfd/https://pub.towardsai.net/agentic-design-patterns-with-langgraph-5fe7289187e6)
+
 - [阿里：从 Loop 到 Graph Engineering 的演进思考与实战](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247562254&idx=1&sn=77b80c213b5e45ae40cdb09a0a6c15dd)
+- [一文搞懂！Loop Engineering的进化史和本质](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247723682&idx=1&sn=07b7025a091060fc7cd45d9e8bc9c14f&chksm=e916e121b1073422558e7db8be8b2f6186abfa968a0fe60faa5cbd0c63c8bcbf15e82aea65ba&mpshare=1&scene=24&srcid=0623wmXGMhzC6TD8Z0AvHUiW&sharer_shareinfo=92bb83c3a0491c8b23604c76d2a7e6cd&sharer_shareinfo_first=b4977180f9c2fee5ffc2a029505b8013#rd)
+
+- [Agent Loop 与 Loop Engineering 区别-2026-06-20](https://mp.weixin.qq.com/s?__biz=MzI2OTE2NTQzMw==&mid=2650794648&idx=1&sn=bb1fc129c61679a8e4867d5d2bccf067&chksm=f3ce52206a2717231629e458af46980c350cdb2e83f33d958c06fd213abe6d1ba369b12ca032&mpshare=1&scene=24&srcid=0620XTweWTMgyEakt3nP3EW4&sharer_shareinfo=b54d963362ae04e83b577a0437379aac&sharer_shareinfo_first=b54d963362ae04e83b577a0437379aac#rd)
+
+- [DeepSeek Harness 和 Pi 的 Agent Loop 循环结束判断架构细节解析](https://mp.weixin.qq.com/s?__biz=MzIzNDU2NDA0NA==&mid=2247485628&idx=1&sn=1d7244f55f6b4ebd8f3ce3e56682e399&chksm=e96ba2484ee72bf874e1a1dc679ccb972379f7a7c179ba865c21869be9d45e24a5667d3e87f2&mpshare=1&scene=24&srcid=0920kHvKsMr1nYFsPco5sm6V&sharer_shareinfo=048a8e813c4c4963d13275af49e7e73e&sharer_shareinfo_first=048a8e813c4c4963d13275af49e7e73e#rd)
+- [Harness的风吹过，Loop Engineering的风来了-2026-06-10](https://mp.weixin.qq.com/s/ewnTpwZs_zk_wSo-ubYCBg)
+
+
+## 其他文章
 - [阿里云：从 ReAct 到 Agent Teams：一个工程师视角的 Agent 协作机制思考](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247562213&idx=1&sn=b5d701423e4bcb9c5775a7c6af19e234)
+- [Agentic Design Patterns with LangGraph](https://freedium.cfd/https://pub.towardsai.net/agentic-design-patterns-with-langgraph-5fe7289187e6)
+- [面试官问：编码 Agent 能排队、能插话、能打断，后端分别怎么实现？-2026-09-24](https://mp.weixin.qq.com/s?__biz=MzYzNjM5Mzk2NA==&mid=2247496727&idx=1&sn=7450fd35b748f1acd113c2a270978ffb&chksm=f1e2e6508acfd501ce58118118f43a08bb1f48ae1d960da08d9f5bb9dab44f7532e70df27c63&mpshare=1&scene=24&srcid=0926YEhMxHzp782sqCzy2PVy&sharer_shareinfo=73a6db0e3029d6aaf7ccc102941ac638&sharer_shareinfo_first=73a6db0e3029d6aaf7ccc102941ac638#rd)
+- 智能客服落地
+  - [智能客服规划第一步：不是选大模型，而是做现状调研--2026-06-24](https://mp.weixin.qq.com/s/AqHvhXvHb7hkPhlgKnwhiQ)
+  - [智能客服落地路线图：第一阶段，先做到“能用”-2026-07-09](https://mp.weixin.qq.com/s/vNN7t56rnxdWvBkpy8uy-A)
+  - [智能客服落地路线图：第二阶段，怎样从“能用”到“好用”-2026-07-10](https://mp.weixin.qq.com/s/_P__Gx5wYQGLCpRTUvfBiw)
+  - [智能客服落地路线图：第三阶段，赋能组织，让客服中心成为AI能力中台-2026-07-13](https://mp.weixin.qq.com/s/b_WkFWoduP0rV3IMBOIOkw)
+    - [智能客服上线前业务准备：首批服务触点如何选择？-2026-07-15](https://mp.weixin.qq.com/s/4oV6a6IzeOyW3sGmnB5qRA)
+  - [智能客服上线前业务准备：首批业务场景怎么选？别只看咨询量-2026-07-21](https://mp.weixin.qq.com/s/BITCNYHt2I7qc5fhG-qO-g)
+  - [智能客服上线前业务准备③：大模型＋RAG下，基础知识库怎么建？-2026-07-24](https://mp.weixin.qq.com/s/DEcqrP5QIiYxtpPizQee2A)
+  - [智能客服上线前业务准备④：从客户旅程出发，转人工规则怎么设计？-2026-07-29](https://mp.weixin.qq.com/s/-sBMdsWW2zYDbLRkOjONIQ)
+  - [智能客服上线前业务准备⑤：以业务目标为核心，搭建数据指标体系=2026-08-03](https://mp.weixin.qq.com/s/BpuhTwpDJLlLvrz3RpoDbw)
+  - [智能客服上线前业务准备⑥：测试验收，如何判断AI客服真的准备好了？-2026-08-05](https://mp.weixin.qq.com/s?__biz=MzI5NTk2NDA1Mg==&mid=2247484076&idx=1&sn=be34ea31999875edccec175679df6fcb&chksm=ed05c4abd69d0c0d75dc50996d16784b1ea1061f57a39a8eb8d88d29239298edb1461f2df907&mpshare=1&scene=24&srcid=0823C4pQKm9epODDrDI6BWOS&sharer_shareinfo=ea76c306b1094172d47b284569d4d234&sharer_shareinfo_first=ea76c306b1094172d47b284569d4d234#rd)
+  - 其他
+    - [智能客服背后都是人工的付出--2026-05-21](https://mp.weixin.qq.com/s/8tlCqvcNOPTVQFBG-tLQlg)
+    - [一起本可避免的投诉，暴露了智能客服的三个服务断点-2026-10-19](https://mp.weixin.qq.com/s/FNNjuomK89UojNzH8DsUQQ)
+    - [2027年客服中心预算，AI钱该花在哪？-2026-09-08](https://mp.weixin.qq.com/s/CaRaU73MCQid2Mqdj4ptNQ)
+    - [企业明明有官方客服，客户为什么还去第三方AI找答案？-2026-08-31](https://mp.weixin.qq.com/s/mVbvDM5H07GLQbE6UZmwOg)
+    - [AI客服时代，基础岗位减少后，人才梯队怎么建？-2026-08-20](https://mp.weixin.qq.com/s/TJjnsSjnQKeroTt14S8cXA)
+    - [AI时代，客服负责人：一个坚守，五个转变-2026-08-16](https://mp.weixin.qq.com/s/a-cpcD67jZGl5Ndn6A3b4A)
+    - [AI进入客服中心后，客服管理发生了什么变化-2026-08-12](https://mp.weixin.qq.com/s/zvo77_he143xqEF-cRxHSA)
+
+
+  - 语音相关
+    - [AI 不仅能打字，还能打电话了：3 个开源语音 Agent 方案-2026-09-06](https://mp.weixin.qq.com/s?__biz=MzU1OTY5OTI3Nw==&mid=2247483947&idx=1&sn=93d56bd378c381b8a55fdf1f251b77e1&chksm=fd7cf8973d6b1e2b1c3bb1380d794af3cb9054fbc36275f1a0856738ea3f73e12c8bba92bde7&mpshare=1&scene=24&srcid=10102foE088mFMrL0SysWXhu&sharer_shareinfo=1b2bc8f11a79046b31b38a5b96e0784d&sharer_shareinfo_first=1b2bc8f11a79046b31b38a5b96e0784d#rd)
+    - [语音助手为什么总抢话？Gander 把“什么时候说”写进训练目标-2026-09-27](https://mp.weixin.qq.com/s?__biz=MzI1NTMxOTUwOA==&mid=2247486441&idx=1&sn=857d465b3f1e9b716fd139b46bddaa5c&chksm=eb8c07c4fd287a99a6602b6aed2a883c4785ad55857f3f0c128f3c254ca6bccc258d105bca2e&mpshare=1&scene=24&srcid=0927mnUZkda9cN5n8kYHx2sE&sharer_shareinfo=85bc5f3ed11fbab9d9a98c85a6820e04&sharer_shareinfo_first=85bc5f3ed11fbab9d9a98c85a6820e04#rd)
+    - [AI语音的级联流水线并行架构-2026-07-24](https://mp.weixin.qq.com/s?__biz=MzU2NzgzMTU0Ng==&mid=2247484219&idx=1&sn=62ba7c9be93deb7088ccb568e3fd0eed&chksm=fd45a2b4742c72726bee463ed996a40dfe7718bb38e5b20f317b468af7f5db36f54c37a49eb8&mpshare=1&scene=24&srcid=0920WpI4KmxX6RNFKjw2QcWB&sharer_shareinfo=b184b02f0172951939ea7eae3f8fb518&sharer_shareinfo_first=b184b02f0172951939ea7eae3f8fb518#rd)
+
+    - [Full-duplex Voice：看懂语音 AI 从“轮流对话”到“边听边做”的变化](https://mp.weixin.qq.com/s/yIO2Gtth1UijgBAZobRGaw)
+
+
+    - [字节Agent岗一面：为什么 AI 实时语音要用 WebRTC？它和 WebSocket 在 AI 对话流中的核心差异是什么？-2026-06-01](https://mp.weixin.qq.com/s/c_2eUkWSATohS_BsnwJxtQ)
+
+    - [低延迟语音 AI 如何规模化——拆解 OpenAI 的 WebRTC 工程实践-2026-05-06](https://mp.weixin.qq.com/s/GGbssoltN5Bq1hu9KcPK9A)
+
+    - [一个开源、可自托管的语音 AI 平台，快速构建和生产部署能够打电话、接电话的 AI 语音智能体-2026-06-22](https://mp.weixin.qq.com/s/fosj8IJ_qewcHClF2yaKuA)
+
+
+- ## Coding Agent
+  - [我把 pi 的源码读完了：一条和 Claude Code 完全相反的路线-2026-07-04](https://mp.weixin.qq.com/s?__biz=MzU1NjgzMjU4Mw==&mid=2247484076&idx=1&sn=9f89bd541fc2ad2e913d86cce320bbbd&chksm=fdf2ddb182107550c8038fa5063766a23d9023e4dd0db7aa9394308de74c7aee18a3bfaa4d4e&mpshare=1&scene=24&srcid=0911pQ4CuP7wifa49JdFAzEt&sharer_shareinfo=0c5a432c5adad9f14e8a8358b51a01c7&sharer_shareinfo_first=0c5a432c5adad9f14e8a8358b51a01c7#rd)
+
+
+
+
+
+- [今天面了5位技术经理，全军覆没。这5位人选都有一个通病，就是说不清对团队成员是怎么管理的。](https://mp.weixin.qq.com/s/7GJMivcLTrilm3n_WS9i3g)
+
+
+- [面试官：AI 回答要逐字出来，用户还能随时打断，这个接口怎么设计？-2026-07-22](https://mp.weixin.qq.com/s/A8NkA3JWj9siAca1_OItwg)
+- [从零设计一个准生产级 LLM Agent：可靠性、上下文与恢复机制-2026-07-09](https://mp.weixin.qq.com/s/UTEdhrkV3G3Ycfrg0Jng_A)
+
+
+
+- [阿里二面：说说LLM Agent 6大 plan 范式： CoT、ToT、GoT、ReAct、Plan-and-Execute、Reflexion？怎么做的选型？ 小伙伴懵了-2026-06-21](https://mp.weixin.qq.com/s/3JxfsuAPADR5vMhex7vZkw)
+
+- [一文搞懂Loop 工程、Harness 工程、FDE——Agentic Engineering 的三个层次-2026-06-09](https://mp.weixin.qq.com/s/qf_OPKf5EFoSh9OYboffvg)
+- [Agent 可观测性：为什么有了 LangChain，还会出现 Langfuse？-2026-06-09](https://mp.weixin.qq.com/s/Vf5lcw13OOBcJeplV70fOA)
+- [Agent Harness 可观测性：生产级 AI 项目必须补上的一课-2026-05-24](https://mp.weixin.qq.com/s/yU3-ciE-R6pJ1tluHlYF3Q)
+
+
+
+
+
+- [百度Agent岗一面：你知道哪些更复杂的 RAG 范式？-2026-05-25](https://mp.weixin.qq.com/s/eEXSNSgXXH2cwYc9YBAc4w)
+
+
+
+
+
+- [美团Agent岗二面：向量检索和关键词检索有什么区别？-2026-05-19](https://mp.weixin.qq.com/s/J9hZ58RSKYisZc40MKoKKg)
+- [字节一面：什么是多路召回？具体怎么做？-2026-05-21](https://mp.weixin.qq.com/s/bSfhBeDDdl1B_ATWELDoAw)
+
+
+- [最值得安装的20个Skills](https://mp.weixin.qq.com/s/uCoIQVuL-X6m0wWd_muAuQ)
+- [字节二面，我霸气反问：“你说你们部门做agent项目，说说Function Call、MCP、A2A、ReAct这些你们都是怎么做的”，面试官一直在擦汗。。-2026-04-15](https://mp.weixin.qq.com/s/eE8PHFRXyTirRMrlJDyZGg)
+- [桃厂面试官：“你的 Agent 项目提示词工程是怎么做的？恶意用户 Prompt 注入怎么处理？”-2026-04-14](https://mp.weixin.qq.com/s/5QqwH5v3ClPi6KQ2Q6szEw)
+- [蚂蚁面试官追问："混合检索你说能提升17%，BM25 和向量的权重比怎么定的，RRF 的 k 值怎么来的？"-2026-04-06](https://mp.weixin.qq.com/s/wZeLHeOqkHDM8ZRStxzCkg)
+
+- [滴滴国际化客服质检智能化之路：多语种多业务线 LLM 质检系统设计与实践-2026-06-04](https://mp.weixin.qq.com/s/_wTZKL9U1i4QE2vo5c8oaQ)
+
+- [智能客服变革：AI大模型与Multi-Agent如何颠覆客户服务模式？-2025-06-27](https://mp.weixin.qq.com/s/tMfjKXETDXYRm7SGz5I42Q)
+ - [智能客服解决方案：从痛点到落地的系统化路径-2026-09-01](https://mp.weixin.qq.com/s/v_BNU9mryMBckzv2MAhIfQ)
+- [智能客服系统构建指南：从零打造AI客服助手-2025-09-08](https://mp.weixin.qq.com/s/XyOK4Dj-2y0zRw8NSYUNTw)
+- [客服人说 | 人机协作成为客服标配 引领服务互动场景智能化新时代-2025-09-21](https://mp.weixin.qq.com/s/TJP9LWCd8AtTy0DcC3yaNQ)
+
+
+
 
 
 # 开源项目
