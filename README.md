@@ -164,7 +164,9 @@ everything about llm based agent
 - [Agent Harness：从模型竞赛到系统工程的演进与实践-2026-05-28](https://mp.weixin.qq.com/s/ltbAxwJVRNNdJkjjv2QN4Q)
 - [从Prompt、Context到Harness，工程的三次进化与终局之战-2026-05-27](https://mp.weixin.qq.com/s/1lqMtE3HjXkbNlPDYhgXyw)
 - [从零设计生产级 Multi-Agent Harness：架构、评估、记忆、成本与 MCP 工具接入全拆解-2026-05-12](https://mp.weixin.qq.com/s/JPhcyDc4JwRmnMQ-76A-FQ)
-
+-## 可观测行
+  - [Agent 可观测性：为什么有了 LangChain，还会出现 Langfuse？-2026-06-09](https://mp.weixin.qq.com/s/Vf5lcw13OOBcJeplV70fOA)
+  - [Agent Harness 可观测性：生产级 AI 项目必须补上的一课-2026-05-24](https://mp.weixin.qq.com/s/yU3-ciE-R6pJ1tluHlYF3Q)
 
 
 ## 安全
@@ -227,20 +229,21 @@ everything about llm based agent
     - [AI客服时代，基础岗位减少后，人才梯队怎么建？-2026-08-20](https://mp.weixin.qq.com/s/TJjnsSjnQKeroTt14S8cXA)
     - [AI时代，客服负责人：一个坚守，五个转变-2026-08-16](https://mp.weixin.qq.com/s/a-cpcD67jZGl5Ndn6A3b4A)
     - [AI进入客服中心后，客服管理发生了什么变化-2026-08-12](https://mp.weixin.qq.com/s/zvo77_he143xqEF-cRxHSA)
+    - [滴滴国际化客服质检智能化之路：多语种多业务线 LLM 质检系统设计与实践-2026-06-04](https://mp.weixin.qq.com/s/_wTZKL9U1i4QE2vo5c8oaQ)
+    - [智能客服变革：AI大模型与Multi-Agent如何颠覆客户服务模式？-2025-06-27](https://mp.weixin.qq.com/s/tMfjKXETDXYRm7SGz5I42Q)
+    - [智能客服解决方案：从痛点到落地的系统化路径-2026-09-01](https://mp.weixin.qq.com/s/v_BNU9mryMBckzv2MAhIfQ)
+    - [智能客服系统构建指南：从零打造AI客服助手-2025-09-08](https://mp.weixin.qq.com/s/XyOK4Dj-2y0zRw8NSYUNTw)
+    - [客服人说 | 人机协作成为客服标配 引领服务互动场景智能化新时代-2025-09-21](https://mp.weixin.qq.com/s/TJP9LWCd8AtTy0DcC3yaNQ)
+
 
 
   - 语音相关
     - [AI 不仅能打字，还能打电话了：3 个开源语音 Agent 方案-2026-09-06](https://mp.weixin.qq.com/s?__biz=MzU1OTY5OTI3Nw==&mid=2247483947&idx=1&sn=93d56bd378c381b8a55fdf1f251b77e1&chksm=fd7cf8973d6b1e2b1c3bb1380d794af3cb9054fbc36275f1a0856738ea3f73e12c8bba92bde7&mpshare=1&scene=24&srcid=10102foE088mFMrL0SysWXhu&sharer_shareinfo=1b2bc8f11a79046b31b38a5b96e0784d&sharer_shareinfo_first=1b2bc8f11a79046b31b38a5b96e0784d#rd)
     - [语音助手为什么总抢话？Gander 把“什么时候说”写进训练目标-2026-09-27](https://mp.weixin.qq.com/s?__biz=MzI1NTMxOTUwOA==&mid=2247486441&idx=1&sn=857d465b3f1e9b716fd139b46bddaa5c&chksm=eb8c07c4fd287a99a6602b6aed2a883c4785ad55857f3f0c128f3c254ca6bccc258d105bca2e&mpshare=1&scene=24&srcid=0927mnUZkda9cN5n8kYHx2sE&sharer_shareinfo=85bc5f3ed11fbab9d9a98c85a6820e04&sharer_shareinfo_first=85bc5f3ed11fbab9d9a98c85a6820e04#rd)
     - [AI语音的级联流水线并行架构-2026-07-24](https://mp.weixin.qq.com/s?__biz=MzU2NzgzMTU0Ng==&mid=2247484219&idx=1&sn=62ba7c9be93deb7088ccb568e3fd0eed&chksm=fd45a2b4742c72726bee463ed996a40dfe7718bb38e5b20f317b468af7f5db36f54c37a49eb8&mpshare=1&scene=24&srcid=0920WpI4KmxX6RNFKjw2QcWB&sharer_shareinfo=b184b02f0172951939ea7eae3f8fb518&sharer_shareinfo_first=b184b02f0172951939ea7eae3f8fb518#rd)
-
     - [Full-duplex Voice：看懂语音 AI 从“轮流对话”到“边听边做”的变化](https://mp.weixin.qq.com/s/yIO2Gtth1UijgBAZobRGaw)
-
-
     - [字节Agent岗一面：为什么 AI 实时语音要用 WebRTC？它和 WebSocket 在 AI 对话流中的核心差异是什么？-2026-06-01](https://mp.weixin.qq.com/s/c_2eUkWSATohS_BsnwJxtQ)
-
     - [低延迟语音 AI 如何规模化——拆解 OpenAI 的 WebRTC 工程实践-2026-05-06](https://mp.weixin.qq.com/s/GGbssoltN5Bq1hu9KcPK9A)
-
     - [一个开源、可自托管的语音 AI 平台，快速构建和生产部署能够打电话、接电话的 AI 语音智能体-2026-06-22](https://mp.weixin.qq.com/s/fosj8IJ_qewcHClF2yaKuA)
 
 
@@ -248,48 +251,27 @@ everything about llm based agent
   - [我把 pi 的源码读完了：一条和 Claude Code 完全相反的路线-2026-07-04](https://mp.weixin.qq.com/s?__biz=MzU1NjgzMjU4Mw==&mid=2247484076&idx=1&sn=9f89bd541fc2ad2e913d86cce320bbbd&chksm=fdf2ddb182107550c8038fa5063766a23d9023e4dd0db7aa9394308de74c7aee18a3bfaa4d4e&mpshare=1&scene=24&srcid=0911pQ4CuP7wifa49JdFAzEt&sharer_shareinfo=0c5a432c5adad9f14e8a8358b51a01c7&sharer_shareinfo_first=0c5a432c5adad9f14e8a8358b51a01c7#rd)
 
 
-
-
-
 - [今天面了5位技术经理，全军覆没。这5位人选都有一个通病，就是说不清对团队成员是怎么管理的。](https://mp.weixin.qq.com/s/7GJMivcLTrilm3n_WS9i3g)
 
 
-- [面试官：AI 回答要逐字出来，用户还能随时打断，这个接口怎么设计？-2026-07-22](https://mp.weixin.qq.com/s/A8NkA3JWj9siAca1_OItwg)
 - [从零设计一个准生产级 LLM Agent：可靠性、上下文与恢复机制-2026-07-09](https://mp.weixin.qq.com/s/UTEdhrkV3G3Ycfrg0Jng_A)
 
-
-
-- [阿里二面：说说LLM Agent 6大 plan 范式： CoT、ToT、GoT、ReAct、Plan-and-Execute、Reflexion？怎么做的选型？ 小伙伴懵了-2026-06-21](https://mp.weixin.qq.com/s/3JxfsuAPADR5vMhex7vZkw)
-
 - [一文搞懂Loop 工程、Harness 工程、FDE——Agentic Engineering 的三个层次-2026-06-09](https://mp.weixin.qq.com/s/qf_OPKf5EFoSh9OYboffvg)
-- [Agent 可观测性：为什么有了 LangChain，还会出现 Langfuse？-2026-06-09](https://mp.weixin.qq.com/s/Vf5lcw13OOBcJeplV70fOA)
-- [Agent Harness 可观测性：生产级 AI 项目必须补上的一课-2026-05-24](https://mp.weixin.qq.com/s/yU3-ciE-R6pJ1tluHlYF3Q)
+
+
+# 面试相关
+  - [阿里二面：说说LLM Agent 6大 plan 范式： CoT、ToT、GoT、ReAct、Plan-and-Execute、Reflexion？怎么做的选型？ 小伙伴懵了-2026-06-21](https://mp.weixin.qq.com/s/3JxfsuAPADR5vMhex7vZkw)
+  - [百度Agent岗一面：你知道哪些更复杂的 RAG 范式？-2026-05-25](https://mp.weixin.qq.com/s/eEXSNSgXXH2cwYc9YBAc4w)
+  - [美团Agent岗二面：向量检索和关键词检索有什么区别？-2026-05-19](https://mp.weixin.qq.com/s/J9hZ58RSKYisZc40MKoKKg)
+  - [字节一面：什么是多路召回？具体怎么做？-2026-05-21](https://mp.weixin.qq.com/s/bSfhBeDDdl1B_ATWELDoAw)
+  - [最值得安装的20个Skills](https://mp.weixin.qq.com/s/uCoIQVuL-X6m0wWd_muAuQ)
+  - [字节二面，我霸气反问：“你说你们部门做agent项目，说说Function Call、MCP、A2A、ReAct这些你们都是怎么做的”，面试官一直在擦汗。。-2026-04-15](https://mp.weixin.qq.com/s/eE8PHFRXyTirRMrlJDyZGg)
+  - [桃厂面试官：“你的 Agent 项目提示词工程是怎么做的？恶意用户 Prompt 注入怎么处理？”-2026-04-14](https://mp.weixin.qq.com/s/5QqwH5v3ClPi6KQ2Q6szEw)
+  - [蚂蚁面试官追问："混合检索你说能提升17%，BM25 和向量的权重比怎么定的，RRF 的 k 值怎么来的？"-2026-04-06](https://mp.weixin.qq.com/s/wZeLHeOqkHDM8ZRStxzCkg)
+  - [面试官：AI 回答要逐字出来，用户还能随时打断，这个接口怎么设计？-2026-07-22](https://mp.weixin.qq.com/s/A8NkA3JWj9siAca1_OItwg)
 
 
 
-
-
-- [百度Agent岗一面：你知道哪些更复杂的 RAG 范式？-2026-05-25](https://mp.weixin.qq.com/s/eEXSNSgXXH2cwYc9YBAc4w)
-
-
-
-
-
-- [美团Agent岗二面：向量检索和关键词检索有什么区别？-2026-05-19](https://mp.weixin.qq.com/s/J9hZ58RSKYisZc40MKoKKg)
-- [字节一面：什么是多路召回？具体怎么做？-2026-05-21](https://mp.weixin.qq.com/s/bSfhBeDDdl1B_ATWELDoAw)
-
-
-- [最值得安装的20个Skills](https://mp.weixin.qq.com/s/uCoIQVuL-X6m0wWd_muAuQ)
-- [字节二面，我霸气反问：“你说你们部门做agent项目，说说Function Call、MCP、A2A、ReAct这些你们都是怎么做的”，面试官一直在擦汗。。-2026-04-15](https://mp.weixin.qq.com/s/eE8PHFRXyTirRMrlJDyZGg)
-- [桃厂面试官：“你的 Agent 项目提示词工程是怎么做的？恶意用户 Prompt 注入怎么处理？”-2026-04-14](https://mp.weixin.qq.com/s/5QqwH5v3ClPi6KQ2Q6szEw)
-- [蚂蚁面试官追问："混合检索你说能提升17%，BM25 和向量的权重比怎么定的，RRF 的 k 值怎么来的？"-2026-04-06](https://mp.weixin.qq.com/s/wZeLHeOqkHDM8ZRStxzCkg)
-
-- [滴滴国际化客服质检智能化之路：多语种多业务线 LLM 质检系统设计与实践-2026-06-04](https://mp.weixin.qq.com/s/_wTZKL9U1i4QE2vo5c8oaQ)
-
-- [智能客服变革：AI大模型与Multi-Agent如何颠覆客户服务模式？-2025-06-27](https://mp.weixin.qq.com/s/tMfjKXETDXYRm7SGz5I42Q)
- - [智能客服解决方案：从痛点到落地的系统化路径-2026-09-01](https://mp.weixin.qq.com/s/v_BNU9mryMBckzv2MAhIfQ)
-- [智能客服系统构建指南：从零打造AI客服助手-2025-09-08](https://mp.weixin.qq.com/s/XyOK4Dj-2y0zRw8NSYUNTw)
-- [客服人说 | 人机协作成为客服标配 引领服务互动场景智能化新时代-2025-09-21](https://mp.weixin.qq.com/s/TJP9LWCd8AtTy0DcC3yaNQ)
 
 
 
