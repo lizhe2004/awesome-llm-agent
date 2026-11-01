@@ -425,6 +425,8 @@ everything about llm based agent
     - ⚡ 与LangGraph长期内存存储原生集成，默认在所有LangGraph平台部署中可用
 
 ## Agent应用
+- [agent-qa](https://vostride.com) · [源码](https://github.com/vostride/agent-qa)
+  - 面向网页、Android 与 iOS 的自然语言 QA 智能体，结合 memidex 持久记忆与自我改进，可通过 CLI 或本地 stdio MCP 接入开发流程；CLI 免费，模型与可选设备服务费用另计，FSL-1.1-ALv2 限制竞争性商业用途。
 - [gpt-newspaper](https://github.com/assafelovic/gpt-newspaper) ![GitHub stars](https://img.shields.io/github/stars/assafelovic/gpt-newspaper.svg?style=flat&label=Star)
   - 这是一个创新的自主代理，旨在根据用户偏好创建个性化报纸。 GPT Newspaper 利用人工智能的力量根据个人品味和兴趣策划、撰写、设计和编辑内容，彻底改变了我们消费新闻的方式。
 - [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main) ![GitHub stars](https://img.shields.io/github/stars/Shubhamsaboo/awesome-llm-apps.svg?style=flat&label=Star)
